@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:qiankun": "ng build --prod --deploy-url http://localhost:7103/",
-    "serve:qiankun": "ng serve --disable-host-check --port 7103 --base-href /angular9 --live-reload false"
+    "serve:qiankun": "ng serve --deploy-url http://localhost:7103/ --disable-host-check --port 7103 --base-href angular9 --live-reload false"
   },
   "private": true,
   "dependencies": {
